@@ -1,0 +1,21 @@
+mutation CreateOrder{
+  createOrder{
+    order{
+      id
+      Email
+      EarlyDue
+      FinalDue
+      filtersize{
+        size
+      }
+      filtertype{
+        type
+      }
+      controllertype{
+        ControllerType
+      }
+      Description
+      Status
+    }
+  }
+}

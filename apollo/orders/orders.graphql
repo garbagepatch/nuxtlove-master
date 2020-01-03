@@ -1,0 +1,19 @@
+query Orders {
+  orders {
+    id
+    Email
+    filtersize {
+      size
+    }
+    filtertype {
+      type
+    }
+    controllertype {
+      ControllerType
+    }
+    EarlyDue
+    FinalDue
+    Description
+    Status
+  }
+}
